@@ -1,0 +1,114 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "API supporting Portal, Android Focus app, Engage Windows app, and Family app.",
+    "version": "1.0.0",
+    "title": "Connect API"
+  },
+  "host": "awsapi.in2lconnect.com",
+  "basePath": "/latest",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/sync-gateway/namespaces/{namespace}/docs": {
+      "get": {
+        "description": "Returns all documents in the namespace.",
+        "operationId": "getDocsByNamespace",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "namespace",
+            "in": "path",
+            "description": "Document namespace",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "Invalid namespace"
+          }
+        }
+      }
+    },
+    "/sync-gateway/namespaces/{namespace}/type/{type}/docs": {
+      "get": {
+        "description": "Returns all documents in the namespace and type.",
+        "operationId": "getDocsByNamespaceType",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "namespace",
+            "in": "path",
+            "description": "Document namespace",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "path",
+            "description": "Document type",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "Invalid namespace or type"
+          }
+        }
+      }
+    },
+    "/sync-gateway/namespaces/{namespace}/docs/{id}": {
+      "get": {
+        "description": "Returns document with matching ID",
+        "operationId": "getDoc",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "namespace",
+            "in": "path",
+            "description": "Document namespace",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "path",
+            "description": "Document type",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Document ID",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "Invalid namespace, type, or ID"
+          }
+        }
+      }
+    }
+  }
+}

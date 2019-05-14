@@ -1,0 +1,908 @@
+[
+  {
+    "_id": "0c1a8469-5583-d94e-acce-1b34a71cdb2b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Green Acres facility 1" }
+  },
+  {
+    "_id": "7f3dc7cd-e692-28d1-d880-8095458b8bd6",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Raj Test facility" }
+  },
+  {
+    "_id": "80bc8d89-e51b-ee5b-1b92-36d7b0bfa18a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RLW-FOCUS-SN-2018-12-17-2"
+  },
+  {
+    "_id": "8d5b57a2-57bd-b75c-d5fc-39229f0d558c",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J10X9RTM"
+  },
+  {
+    "_id": "c79e7ae6-8d7d-bb05-34ae-0fd0e73702f4",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "newrajserialnumber"
+  },
+  {
+    "_id": "d5092bf1-7ea7-9e52-c990-c40f345ff958",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device"
+  },
+  {
+    "_id": "ed07039f-4007-dc88-dcde-cd4c7cb7541d",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "rlw-gac-facility-1" }
+  },
+  {
+    "_id": "portal_sync_admin_rwinchell_40in2l.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "32b057f8-10a5-04e6-a21e-16adabbf4b89",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "R52J21DN9AK"
+  },
+  {
+    "_id": "53b4d36e-ba61-4fb0-1eb4-3ba5f6536299",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Green Acres Test Community facility " }
+  },
+  {
+    "_id": "88673570-a2da-25a5-d721-3d7fea455fa5",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "HD1TDH2"
+  },
+  {
+    "_id": "9613189b-08d6-7f0f-5bc3-56db11348f36",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "88"
+  },
+  {
+    "_id": "ce8cd4b5-b289-9719-262d-e3745d790716",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "SrajQA12546399"
+  },
+  {
+    "_id": "e048f772-6392-17f0-c918-7b215139c917",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "7CCBZM2"
+  },
+  {
+    "_id": "1b026150-a9a5-d55f-9599-b83c499f5b15",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Lone Tree Test Facility" }
+  },
+  {
+    "_id": "40ca85ad-a8cc-fad9-9d42-ef1c5514204d",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52JC063YJV"
+  },
+  {
+    "_id": "4f52110b-eb54-ddb5-80e5-d9e9fede98cb",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test Facility" }
+  },
+  {
+    "_id": "5e07f225-1d29-c736-fe40-d7f9e8be0b48",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New Test Facility" }
+  },
+  {
+    "_id": "8b3a535a-b583-958b-301b-19d66b6061eb",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "R52JA1PXJ8A"
+  },
+  {
+    "_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Centennial Test Facility" },
+    "serial_number": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b"
+  },
+  {
+    "_id": "2138d5b9-0aea-9958-da60-a8b4a9c391e0",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test Raj facility" }
+  },
+  {
+    "_id": "6d375274-f9ce-352d-1689-9c635eff1700",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "2IMFEAC147"
+  },
+  {
+    "_id": "71fb374c-4bec-b649-3d1c-b6298d6d7b65",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "J3DWYQ2"
+  },
+  {
+    "_id": "8688fcd3-fbb3-4038-89cd-8f172722f31c",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "R52J21DMTNN"
+  },
+  {
+    "_id": "c464b311-f962-43be-880d-7c7e805c2418",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1b026150-a9a5-d55f-9599-b83c499f5b15",
+    "doc_type": "account_device-status",
+    "serial_number": "1212124578458"
+  },
+  {
+    "_id": "e9ee7ced-b2df-d9d5-2639-08cb80cba586",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device-status",
+    "serial_number": "99999999991"
+  },
+  {
+    "_id": "ec58b216-88a5-3e8c-63bb-97c0b18a1818",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "Eclipse"
+  },
+  {
+    "_id": "f661350d-56ba-9720-b530-4c8b8bbf951b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J20TTTTR"
+  },
+  {
+    "_id": "24a31106-4267-43e2-a070-e4d93d84040a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device-status",
+    "serial_number": "121245784578"
+  },
+  {
+    "_id": "47721ea5-9266-6afd-017f-662c8e04b624",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test Facility" }
+  },
+  {
+    "_id": "ac9a090d-e4da-e3a6-11c5-feaf2fc1f14d",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "G4YS0G2"
+  },
+  {
+    "_id": "eadbc201-8968-7ee7-8087-ffc3b64ed72d",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test Raj facility 11" }
+  },
+  {
+    "_id": "portal_sync_admin_srirajappana06_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_account-admin"
+  },
+  {
+    "_id": "4519a6ca-f665-84d5-0d32-873a8fc5601a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Raj Test Facility " }
+  },
+  {
+    "_id": "5eb60363-8bdd-8229-c807-eae69a3ff1f2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RAJT45639912"
+  },
+  {
+    "_id": "portal_sync_admin_tjgunerr_40hotmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "portal_sync_admin_user0268_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "e8521973-012e-f94d-936c-3a3e13ec57f5",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "53b4d36e-ba61-4fb0-1eb4-3ba5f6536299",
+    "doc_type": "account_device",
+    "serial_number": "ec212f1b-4eb3-53b9-8ab5-6f7da8a71d51"
+  },
+  {
+    "_id": "35802094-17bc-4d56-8c97-c34e5f0c9633",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "device-status",
+    "serial_number": "R52J20W1TCR"
+  },
+  {
+    "_id": "ceb87fdc-e04a-9dc1-adfb-66e9d7c102bd",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test Facility R" }
+  },
+  {
+    "_id": "f2638a67-18bb-1c9d-b2a4-7865e448d053",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "J3VN9H2"
+  },
+  {
+    "_id": "portal_sync_admin_appanaraj10_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_account-admin"
+  },
+  {
+    "_id": "062d6805-f79f-4ff9-dce8-8f620c392d9b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "0c1a8469-5583-d94e-acce-1b34a71cdb2b",
+    "doc_type": "account_device",
+    "serial_number": "R52J20W1M2H"
+  },
+  {
+    "_id": "11d3ef37-f5e4-4388-9235-e04a16470f8c",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1b026150-a9a5-d55f-9599-b83c499f5b15",
+    "doc_type": "account_device-status",
+    "serial_number": "test1223456789"
+  },
+  {
+    "_id": "30ed9c18-af42-a4ca-c56a-f6d26ada8d22",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "121245784578"
+  },
+  {
+    "_id": "3e63632a-9396-e7aa-6bec-905d6e26f156",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "MyDeviceSerial"
+  },
+  {
+    "_id": "4334829f-57f6-d2e8-0347-f4faa6d10ebf",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New TesterRJ facility" }
+  },
+  {
+    "_id": "4f00d79a-7fff-af89-1eda-678f5c022f5b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New Test Rj Facility " }
+  },
+  {
+    "_id": "59b0e7b9-48dd-242a-532c-6fc7ff75213f",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "365T7M2"
+  },
+  {
+    "_id": "8c1d1403-d9c0-bd03-1c1e-ac089881e111",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "rlw-gac-facility-2" }
+  },
+  {
+    "_id": "b7f62fec-9c7e-ed21-b1a7-23e9caf6a509",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "2IMFEVG3G9"
+  },
+  {
+    "_id": "d49925f5-6034-5de6-0cf0-f6b484c41a98",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "BFMV4Q2"
+  },
+  {
+    "_id": "ddd44e95-c877-56b7-ce11-8cab77389775",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New raj Test Facility " }
+  },
+  {
+    "_id": "0e7d0a65-55f1-0f06-92b5-31290ddd0d0f",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J21DN9AK"
+  },
+  {
+    "_id": "22b99662-0be3-46df-b1da-da876665dfa2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "2IMFEVG3G9"
+  },
+  {
+    "_id": "244ff01f-040f-c734-f609-a20171219712",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "asdf1234"
+  },
+  {
+    "_id": "5707a3e8-3b66-6d7c-1265-d2bab4d8bbd2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R784512487"
+  },
+  {
+    "_id": "694cd245-1d55-7d90-c208-60bde0ec499b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "62XBNF2"
+  },
+  {
+    "_id": "789456",
+    "_rev": "3-1234",
+    "doc_type": "account_account",
+    "profile": { "account_name": "Green Acres Communities" }
+  },
+  {
+    "_id": "94ac0966-3396-f394-0c26-5ef40f24d4cb",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1b026150-a9a5-d55f-9599-b83c499f5b15",
+    "doc_type": "account_device",
+    "serial_number": "1212124578458"
+  },
+  {
+    "_id": "b5839b87-f42b-864e-93a3-57f0d30054e8",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "4TGHM02"
+  },
+  {
+    "_id": "b7a08f8e-d7e1-980d-6762-2760ccdc455e",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RLW-FOCUS-SN-2018-12-04-1"
+  },
+  {
+    "_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Rolling Hills Assisted Living" }
+  },
+  {
+    "_id": "e7d3451f-569a-6089-648a-7b66396078fc",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "53b4d36e-ba61-4fb0-1eb4-3ba5f6536299",
+    "doc_type": "account_device",
+    "serial_number": "EHUBB18B12000196"
+  },
+  {
+    "_id": "portal_sync_admin_rjtester100_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_in2l-admin"
+  },
+  {
+    "_id": "2b481486-5ca6-35c8-58a7-457cba855dd5",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "RJ4599999"
+  },
+  {
+    "_id": "35e8b85e-c171-914a-750e-4420ed5b1357",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "5D9FF42"
+  },
+  {
+    "_id": "8934e554-c522-fe03-6bfc-7bda455ac537",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "99999999991"
+  },
+  {
+    "_id": "a53be824-03dd-78c2-19ac-ecbffb69fc58",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "0F8BFBFF000806EA"
+  },
+  {
+    "_id": "ea142462-eac5-81d5-8f60-d5d2dfb013d7",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52HC0WY72M"
+  },
+  {
+    "_id": "ee222d74-8a2a-60c9-805a-e5d49a2806c0",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device-status",
+    "serial_number": "R52J20W188K"
+  },
+  {
+    "_id": "609356c8-0cfd-1472-b38a-aaef60a812d1",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1b026150-a9a5-d55f-9599-b83c499f5b15",
+    "doc_type": "account_device",
+    "serial_number": "test1223456789"
+  },
+  {
+    "_id": "6bc146b3-91ab-3aa4-5246-d7439d2450bc",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "9DGGNF2"
+  },
+  {
+    "_id": "80aa2873-fc7f-8e37-9665-eaa5de783a6a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RLW-FOCUS-SN-2019-01-15-1"
+  },
+  {
+    "_id": "a501d76a-5a9b-6498-b0e0-d90ee9357e3a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "256J3H2"
+  },
+  {
+    "_id": "d1bd8bbb-47cd-a391-f0c4-cc54bc0b5ec9",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "RTSJ85956214"
+  },
+  {
+    "_id": "2dbe16ca-78a6-c1bb-24cc-331a81996c69",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RLW-FOCUS-SN-2019-01-15-2"
+  },
+  {
+    "_id": "3c990c95-3dad-317d-eab4-91486de9564c",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J20TSWCA1245"
+  },
+  {
+    "_id": "7292fbf6-f71d-4c3f-a3c4-27c1c945e11b",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "R52HC0WY72M"
+  },
+  {
+    "_id": "bb121b23-b8f6-355f-4363-ae420ca7e4b2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "RLW-FOCUS-SN-2018-12-04-2"
+  },
+  {
+    "_id": "fe2bbf5a-930a-2604-0260-6a6e65a7bb37",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "J3VN9H2"
+  },
+  {
+    "_id": "portal_sync_admin_kcstog_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "rob.wilburn.in2l+rh.fa@gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "robwilburn.in2l+rh.fa@gmail.com_495589bfe3dd-2781-b35e-55e82d641044",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "100142d3-dee8-a1a2-edfb-b358b4b1b626",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52JA1PXJ8A"
+  },
+  {
+    "_id": "aea3f627-98f9-d6db-90ee-82e42f0a005f",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New Facility" }
+  },
+  {
+    "_id": "d9594587-8450-de2c-d273-4654f526c615",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New raj Test automation Facility" }
+  },
+  {
+    "_id": "eda431ff-fa7c-b39c-3d30-30ccac088b64",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "88"
+  },
+  {
+    "_id": "portal_sync_admin_test_40in2l.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_account-admin"
+  },
+  {
+    "_id": "portal_sync_admin_tjgunerr_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "01a9c713-86f8-ecdd-deea-ae40bef95929",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52JC063TFT"
+  },
+  {
+    "_id": "4d76b16e-d9ec-0b95-e348-e6dc67216d12",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "R52J21DN99N"
+  },
+  {
+    "_id": "72783617-6de0-489a-ffcd-1cc90f69a6d2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J20W188K"
+  },
+  {
+    "_id": "9fafb9ac-3471-4f9d-8653-e581e9d5efd3",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device-status",
+    "serial_number": "2IMFEAC147"
+  },
+  {
+    "_id": "c8a6a8ef-8987-3154-7023-47d0331cd9d9",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "Raj1234578"
+  },
+  {
+    "_id": "d64d2d3c-a204-42fa-f6b7-98c8d138687d",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J215PLSR"
+  },
+  {
+    "_id": "e22824ce-0d2e-8168-9e3c-6ae4f1b8bcd2",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device"
+  },
+  {
+    "_id": "e5b0c517-f975-cb98-56cd-fc5964891c74",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "New Facility" }
+  },
+  {
+    "_id": "portal_sync_admin_rob.wilburn.in2l_2bgac.aa_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_account-admin"
+  },
+  {
+    "_id": "portal_sync_admin_rob.wilburn.in2l_2brh.fa_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_facility-admin"
+  },
+  {
+    "_id": "3a993a8e-a123-2cfa-b3a0-95afb8c6438a",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "BFEBFBFF000906E9"
+  },
+  {
+    "_id": "7a96f51d-0844-14b8-2e80-8a15a8afab3c",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "R52J21DMTNN"
+  },
+  {
+    "_id": "a15db7be-25f3-e888-408f-b91ddd4e0be8",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "cdebd977-5105-4c25-be9d-45b26bd2dea0",
+    "doc_type": "account_device",
+    "serial_number": "Gxxxxxxxxxxx"
+  },
+  {
+    "_id": "b534ec8b-db92-6aba-3255-377350678b98",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Test facility" }
+  },
+  {
+    "_id": "cc24c64d-816b-9fe1-bf1d-c21f53af77e4",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "facility_id": "1ad7b1fc-5c96-ed39-61ec-3bcca697765b",
+    "doc_type": "account_device",
+    "serial_number": "R52J20W188"
+  },
+  {
+    "_id": "e23f3423-cd10-f90c-94b8-162156fb78db",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "account_facility",
+    "profile": { "name": "Raj Test facility" }
+  },
+  {
+    "_id": "portal_sync_admin_robertzwinchell_40gmail.com",
+    "_rev": "3-1234",
+    "account_id": "789456",
+    "doc_type": "sync_account-admin"
+  },
+  {
+    "_id": "2235114f-a168-d140-cac5-f357057428c7",
+    "_rev": "3-1234",
+    "account_id": "11111",
+    "doc_type": "account_facility",
+    "profile": { "name": "Cool Facility 1" }
+  },
+  {
+    "_id": "4392a0db-070e-f2db-a441-9e085a5372c8",
+    "_rev": "3-1234",
+    "account_id": "11111",
+    "facility_id": "2235114f-a168-d140-cac5-f357057428c7",
+    "doc_type": "account_device"
+  },
+  {
+    "_id": "3b067986-e9c0-b423-5656-5fdacc4ac212",
+    "_rev": "3-1234",
+    "account_id": "11111",
+    "facility_id": "2235114f-a168-d140-cac5-f357057428c7",
+    "doc_type": "account_device",
+    "serial_number": "rlw-sn-1-2019-02-08"
+  },
+  {
+    "_id": "11111",
+    "_rev": "3-1234",
+    "doc_type": "account_account",
+    "profile": { "account_name": "RLW Account 1" }
+  },
+  {
+    "_id": "87bb5e08-c034-0384-345e-47d7c350a407",
+    "_rev": "3-1234",
+    "account_id": "11111",
+    "facility_id": "2235114f-a168-d140-cac5-f357057428c7",
+    "doc_type": "account_device",
+    "serial_number": "R52J20W1TCR"
+  },
+  {
+    "_id": "4788c1f3-fd93-8d1a-6088-d72048df05b0",
+    "_rev": "2-2df49fe0e0583004f28f8af860c64331",
+    "doc_type": "content_library-folder",
+    "library_path": "/activity"
+  },
+  {
+    "_id": "b328a0c7-d05a-7039-9005-4b73c56f812c",
+    "_rev": "1-aad0ca3ac1c3c09fcb8c514371485002",
+    "doc_type": "content_library-folder",
+    "library_path": "/activity/yoga"
+  },
+  {
+    "_id": "c009a179-f0fb-4bfb-a67d-1f18f64fd772",
+    "_rev": "1-f1d1a1a5c8740439d07fe00571d12b75",
+    "doc_type": "content_library-folder",
+    "library_path": "/website"
+  },
+  {
+    "_id": "ee1871d8-2f20-43ca-ad73-ee79834fd340",
+    "_rev": "1-64750e4cc1f7d8900209a7972e7a8f9f",
+    "doc_type": "content_library-folder",
+    "library_path": "/"
+  },
+  {
+    "_id": "00a18df8-3687-3003-96e1-92a48f61c25c",
+    "_rev": "1-adb968ac41121f2cbf47ee1fb70649f7",
+    "content_type": "video",
+    "display_type": "video",
+    "doc_type": "content_item",
+    "library_path": "/activity",
+    "title": "Puppies playing"
+  },
+  {
+    "_id": "00b476dd-332c-4b77-8c0b-14ef78adfe7f",
+    "_rev": "3-838011f6728c95327402eb78332dc17a",
+    "content_type": "website",
+    "display_type": "website",
+    "doc_type": "content_item",
+    "library_path": "/website",
+    "title": "Turtles"
+  },
+  {
+    "_id": "0330dd72-0e12-4585-9401-48fbb91db0eb",
+    "_rev": "1-ef85cae2629234fd1e00614c7848c741",
+    "abbreviation": "FS",
+    "doc_type": "content_package",
+    "name": "Focus Standard",
+    "notes": ""
+  },
+  {
+    "_id": "038c8944-e772-4e2b-bd64-3a70772cd788",
+    "_rev": "1-ae6e793c29111f8d64aae7d47becd519",
+    "doc_type": "content_root-container",
+    "children": ["038e3556-02b0-42eb-b7c3-2043ae54bfe4"]
+  },
+  {
+    "_id": "038e3556-02b0-42eb-b7c3-2043ae54bfe4",
+    "_rev": "1-ccf7c30f20e30f420ad4fb08f0ea21ad",
+    "doc_type": "content_container",
+    "children": ["05789150-3c47-4e50-8b12-1eabb6af25e4"]
+  },
+  {
+    "_id": "05789150-3c47-4e50-8b12-1eabb6af25e4",
+    "_rev": "1-6dc4d5f5548a8351c3aed5a5f4893c34",
+    "doc_type": "content_link-to",
+    "item_id": "00a18df8-3687-3003-96e1-92a48f61c25c"
+  }
+]

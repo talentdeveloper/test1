@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "connect-api-qa-executor",
+    "name": "connect-api-qa",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "u7rjvqj7kc",
+    "module": "dist/app"
+  }
+}

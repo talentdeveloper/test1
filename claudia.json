@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "connect-api-dev-executor",
+    "name": "connect-api-dev",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "merm3f05s5",
+    "module": "dist/app"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "connect-api-prod-executor",
+    "name": "connect-api-prod",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "t8ipvgsqw1",
+    "module": "dist/app"
+  }
+}

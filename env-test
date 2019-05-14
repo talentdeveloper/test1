@@ -1,0 +1,17 @@
+COUCHBASE_URL=https://analytics-unittest
+COUCHBASE_USER=cb_user
+COUCHBASE_PASS=cb_pass
+
+PORTAL_API_URL=https://api-unittest
+
+SYNC_GATEWAY_URL=http://syncgw-admin-unittest
+SYNC_GATEWAY_USER=syncgateway_user
+SYNC_GATEWAY_PASS=syncgateway_pass
+
+API_KEY=api_key
+ANDROID_GOOGLE_OAUTH_CLIENT_ID=690849989739-cl79dcvi9qcet9o7hsh3235fi5k8rq79.apps.googleusercontent.com
+IOS_GOOGLE_OAUTH_CLIENT_ID=746197589088-c377idpb751gudjafeoj25c1uc6oc9ic.apps.googleusercontent.com
+ALLOW_TEST_OAUTH=true
+TEST_OAUTH_VALUE=test
+
+

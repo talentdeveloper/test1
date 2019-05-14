@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "connect-api-stg2-executor",
+    "name": "connect-api-stg2",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "tj6w9j835d",
+    "module": "dist/app"
+  }
+}

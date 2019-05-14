@@ -1,0 +1,17 @@
+COUCHBASE_URL=https://analytics-stg.in2lolympus.com
+COUCHBASE_USER=query_user_stg
+COUCHBASE_PASS=95.together.ORDER.student.GLASS.54
+
+PORTAL_API_URL=https://api-stg.in2lolympus.com
+
+SYNC_GATEWAY_URL=https://syncgw-admin-stg.in2lolympus.com
+SYNC_GATEWAY_USER=syncgw_admin
+SYNC_GATEWAY_PASS=NTVhZjgwNmJjNGY2M2Y3MDdmMTAzNDlj
+
+API_KEY=73mP6hMQ7M3OFAa8lVett8WnYoGp1MsY1Spe0DSS
+ANDROID_GOOGLE_OAUTH_CLIENT_ID=690849989739-cl79dcvi9qcet9o7hsh3235fi5k8rq79.apps.googleusercontent.com
+IOS_GOOGLE_OAUTH_CLIENT_ID=746197589088-c377idpb751gudjafeoj25c1uc6oc9ic.apps.googleusercontent.com
+ALLOW_TEST_OAUTH=false
+TEST_OAUTH_VALUE=
+
+CORS_URLS=https://stg.in2lolympus.com,https://www-stg.in2lolympus.com,http://localhost:4200
