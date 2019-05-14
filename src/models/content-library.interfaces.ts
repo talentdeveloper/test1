@@ -17,6 +17,7 @@ export namespace ContentLibraryInterfaces {
     };
     platforms: string;
     total_content_items: number;
+    selpackages: string;
   }
 
   export interface IContentStatsResult {
@@ -36,6 +37,7 @@ export namespace ContentLibraryInterfaces {
       rehab: boolean;
     };
     platforms: string;
+    selpackages: string;
   }
 
   export interface ISearchResult {

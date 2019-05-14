@@ -14,7 +14,7 @@ import { ContentLibraryInterfaces as CLI, LibraryItem, SyncGatewayInterfaces } f
 import { SyncGatewayService } from '../services/sync-gateway.service';
 
 export class PortalContentController {
-  constructor(private service: SyncGatewayService) {}
+  constructor(private service: SyncGatewayService) { }
 
   getActiveFavorites(): Observable<{ [contentId: string]: number }> {
     // Get number of times each content item has been favorite'd by an active resident
@@ -138,14 +138,20 @@ export class PortalContentController {
               times_accessed: null,
               active_favorites: null,
               products: item.products,
+              selpackages: Object.keys(item.products)
+                .filter(key => item.products[key])
+                .join(', ')
+                .toLowerCase(),
+              //selpackages: null,
               platforms: Object.keys(item.products)
                 .filter(key => item.products[key])
                 .join(', ')
-                .toUpperCase()
+                .toUpperCase(),
             };
 
             return output;
           });
+
 
         return Observable.of(results);
       }

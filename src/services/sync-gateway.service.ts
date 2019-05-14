@@ -54,7 +54,7 @@ export class SyncGatewayService {
 
     const fullUrl = `${
       this.config.syncGateway.url
-    }/${bucket}/_all_docs?include_docs=true&keys=[${keys.map(k => `"${k}"`)}]`;
+      }/${bucket}/_all_docs?include_docs=true&keys=[${keys.map(k => `"${k}"`)}]`;
 
     if (fullUrl.length <= 2084) {
       return this.baseSgRequest.get(fullUrl).mergeMap(data => {
@@ -155,7 +155,7 @@ export class SyncGatewayService {
   ): Observable<MessageInterfaces.IMessageChange[]> {
     const url = `${
       this.config.syncGateway.url
-    }/message_data/_changes?since=${sequenceId}&active_only=1&include_docs=true`;
+      }/message_data/_changes?since=${sequenceId}&active_only=1&include_docs=true`;
     return this.baseSgRequest
       .get(url)
       .mergeMap(data =>
@@ -338,11 +338,11 @@ export class SyncGatewayService {
       .mergeMap((data: RxHttpRequestResponse) => {
         console.log(
           'SyncGatewayService.updateAttachment PUT ' +
-            url +
-            ' - statusCode: ' +
-            data.response.statusCode +
-            ' - ' +
-            typeof data.body
+          url +
+          ' - statusCode: ' +
+          data.response.statusCode +
+          ' - ' +
+          typeof data.body
         );
         return Observable.of(JSON.parse(data.body));
       });

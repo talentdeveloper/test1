@@ -25,12 +25,12 @@ export class PortalContentRoutes {
     });
 
     api.get('/portal-content/search/{searchText}', request => {
-      const searchText = request.pathParams.searchText;
-      if (!searchText) {
-        throw new Error('Invalid search text. Please provide at least 3 characters to search for.');
-      }
+      // const searchText = request.pathParams.searchText;
+      // if (!searchText) {
+      //   throw new Error('Invalid search text. Please provide at least 3 characters to search for.');
+      // }
 
-      return portalContentController.getSearchResults(searchText).toPromise();
+      // return portalContentController.getSearchResults(searchText).toPromise();
     });
 
     api.put('/portal-content/librarypaths', request => {

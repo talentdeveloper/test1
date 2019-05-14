@@ -1,5 +1,5 @@
 {
-  "name": "connect-api-dev",
+  "name": "connect-api",
   "version": "1.0.0",
   "description": "Connect API",
   "main": "dist/app.js",

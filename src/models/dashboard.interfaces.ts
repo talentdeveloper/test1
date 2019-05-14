@@ -41,6 +41,7 @@ export namespace DashboardInterfaces {
       focus: boolean;
       rehab: boolean;
     };
+    selpackages: string;
   }
 
   export interface IFacilitiesTotalUsage {
